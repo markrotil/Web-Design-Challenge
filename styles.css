@@ -1,0 +1,24 @@
+.navbar-brand{
+    background-color: rgb(41, 145, 243);
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+}
+
+#navi-item-select{
+    text-align: right;
+    background-color: rgb(41, 145, 243);
+}
+
+.title_header{
+    background-color: grey;
+    font-size: 72px;
+  background: -webkit-linear-gradient(rgb(96, 186, 255), rgb(29, 1, 107));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p{
+
+    background-color: rgb(41, 39, 39);
+}
