@@ -12,7 +12,7 @@
 }
 
 .title_header{
-    background-color: grey;
+    background-color: rgb(219, 27, 27);
     font-size: 72px;
   background: -webkit-linear-gradient(rgb(96, 186, 255), rgb(29, 1, 107));
   -webkit-background-clip: text;
@@ -24,6 +24,22 @@
     background-color: rgb(41, 39, 39);
 }
 
-.container{
-    background-image:"Images\world map.jpg";
+h1{
+    background-color: blue;
+}
+
+@media (max-width: 480px) {
+    .img1 {
+        width: 80%;
+    }
+    .img2 {
+        display: none;
+    }
+    .img3 {
+        width: 80%;
+        display: block;
+    }
+    .img4{
+        display: none;
+    }
 }
