@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Boostrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!--css style sheet link-->
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
 </head>
 
@@ -25,6 +27,7 @@
                         aria-haspopup="true" aria-expanded="false">
                         Plots
                     </a>
+                    <!--Drop down bar-->
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href=max_temp.html>City Latitude vs Max
                             Temperature</a>
@@ -33,6 +36,7 @@
                         <a class="dropdown-item" href="cloudiness.html">City Latitude vs Cloudiness</a>
                         <a class="dropdown-item" href="wind_speed.html">City Latitude vs Wind Speed</a>
                     </div>
+                    <!--Web links-->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="comparison.html">Comparison</a>
@@ -47,9 +51,10 @@
         </div>
     </nav>
 
-
+    <!--Creates a table-->
     <table border="1" class="dataframe">
         <thead>
+            <!--Gives column names to the table-->
             <tr style="text-align: right;">
                 <th></th>
                 <th>City_ID</th>
@@ -64,6 +69,7 @@
                 <th>Wind Speed</th>
             </tr>
         </thead>
+        <!--fills out the rows in the columns-->
         <tbody>
             <tr>
                 <th>0</th>
